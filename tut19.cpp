@@ -8,6 +8,8 @@ int fabonacci(int num){
     else if(num==2){
         return 2;
 
+        
+
     }
     return num+fabonacci(num-1);
 }
