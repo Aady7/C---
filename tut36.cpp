@@ -27,5 +27,14 @@ cout<<"======================================================="<<endl;
 
 
 // compairing references and pointers
+//u can do  dereferencing with pointers
+//ponters can be changed to point different things
+//poiners need not to be initialised while references need to be
+//initilised at the declaration
+//references are like a constant pointers 
+
+
+
+
     return 0;
 }
