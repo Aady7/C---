@@ -24,6 +24,11 @@
  cout<<"*p_number4 : "<<*p_number4<<endl;
 
  //now you should not delete the pointer 3 and then use the pointer 4
-    return 0;
+   
+
+
+
+
+  return 0;
  }
  

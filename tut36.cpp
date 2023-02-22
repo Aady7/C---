@@ -34,7 +34,24 @@ cout<<"======================================================="<<endl;
 //references are like a constant pointers 
 
 
+//           using const reference
+
+/*
+
+int age {45};
+const int& ref_age{age};
+cout<<"age "<<age<<endl;
+cout<<"ref_age "<<ref_age<<endl;
+//trying to modifying it
+ref_age++; //modify trough the reeference
+cout<<"age "<<age<<endl;
+cout<<"ref_age"<ref_age<<endl;
+
+//this will throw an error as it is costant
 
 
+*/
+
+//similarly it is for pointers
     return 0;
 }
