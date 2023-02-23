@@ -50,6 +50,20 @@
     return 99;
  }
 
+ //funtion that increases and multiply
+ 
+ double increment_multiply(double a, double b){
+    cout<<"Inside funtion before increment : "<<endl;
+    cout<<"a : "<<a<<endl;
+    cout<<"b : "<<b<<endl;
+
+  double result=((++a)*(++b));
+  cout<<"inside funtion after increment : " <<endl;
+  cout<<"a "<<a<<endl;
+  cout<<"b "<<b<<endl;
+  return result;
+ }
+
 
  int main(){
     //enter_bar(33);  //function argument
@@ -81,7 +95,15 @@ cout<<"the lucky number is "<<result;
 
 */
 
-
+double h=7.8;
+double f=6.76;
+cout<<"outside funtion ,before increment"<<endl;
+cout<<"h "<<h<<endl;
+cout<<"f "<<f<<endl;
+cout<<"the increment product of the numbers are"<<increment_multiply(h,f)<<endl;
+cout<<"outside the funtion after increment"<<endl;
+cout<<"h "<<h<<endl;
+cout<<"f "<<f<<endl;
     return 0;
  }
           
