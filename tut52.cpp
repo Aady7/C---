@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cstring>
 using namespace std;
 
 //passing by value
@@ -107,8 +108,17 @@ T maximum(T a, T b){
 }
 template<>
 const char *maximum<const char*>(const char*a, const char *b){
+    return(strcmp(a,b)>0)? a:b;
     
 }
+int main(){
+    const char* g{"wild"};
+const char* h{"animal"};
+auto result=maximum(g,h);
+cout<<"char*pointer "<< result<<endl;
+return 0;
 
-    return 0;
 }
+
+    
+
