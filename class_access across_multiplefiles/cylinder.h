@@ -7,10 +7,7 @@ class cylinder{
     public:
       //constructors 
       cylinder()=default;
-      cylinder(double rad_param, double height_param){
-        base_radius=rad_param;
-        height=height_param;
-      }
+      
     //funtions
     double volume(){
         return pi*base_radius*base_radius*height;
@@ -30,5 +27,5 @@ class cylinder{
         height=height_param;
     }
 
-
+    cylinder(double rad_param, double height_param);
 };
